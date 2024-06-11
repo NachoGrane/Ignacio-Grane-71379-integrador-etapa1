@@ -1,0 +1,43 @@
+:root {
+  --bg-body-main: #f8f8f8;
+  --bs-primary: #b5b6e4;
+  --bs-secondary: #4f43ae;
+  --bs-terciary: #cec9cc;
+  --bs-black: #211a21;
+  --bs-white: #f8f8f8;
+  --bs-success: #01916c;
+  --bs-danger: #de3d4b;
+  --bs-alert: #ffbc52;
+  --bs-info: #0050a5;
+  --bs-secondary-accent: #3c3fff;
+  --text-main: #000000;
+  --text-muted: #434343;
+}
+/* ------------------------------ */
+.mr-5 {
+  margin-right: 5px;
+}
+
+.ml-5 {
+  margin-left: 5px;
+}
+
+/* ------------------------------ */
+
+.circle-md {
+  width: 64px;
+  height: 64px;
+  line-height: 64px;
+  text-align: center;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.circle-sm {
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  border-radius: 50%;
+  display: inline-block;
+}

@@ -1,8 +1,32 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wdth,wght@50..200,200..900&display=swap');
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Inconsolata', monospace;
   font-size: 100%; //default navegadores 16px
 }
 
 //Podemos hacer clases utilitarias acá, lo que querramos como .text-24, etc
+
+.text-black {
+  color: var(--text-main);
+}
+
+.text-muted {
+  color: var(--text-muted);
+}
+
+.text-white {
+  color: #ffff;
+}
+
+/* ------------------------------ */
+
+.text-20 {
+  font-size: 1.3rem;
+}
+.text-22 {
+  font-size: 1.4rem;
+}
+.text-24 {
+  font-size: 1.5rem;
+}

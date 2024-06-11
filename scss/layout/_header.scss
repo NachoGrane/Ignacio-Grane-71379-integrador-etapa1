@@ -3,6 +3,7 @@
 /* -------------------------------------------------------- */
 
 .main-header {
+  margin-top: 20px;
   display: flex;
   flex-direction: column;
   @media (max-width: 768px) {
@@ -30,7 +31,7 @@
 /* -------------------------------------------------------- */
 
 .nav-bar {
-  background-color: mediumaquamarine;
+  background-color: var(--bs-primary);
 
   &__nav-list {
     /* .nav-bar__nav-list */
@@ -69,20 +70,24 @@
 /* -------------------------------------------------------- */
 
 .search-bar {
-  background-color: olivedrab;
+  background-color: var(--bs-primary);
+  padding: 15px;
   display: flex;
   justify-content: space-around;
+  border-radius: 5px;
 
   &__logo-container {
     /* .search-bar__logo-container */
-    width: 18.75rem;
-    height: 3.75rem;
+    &-img {
+      width: 115px;
+      height: 50px;
+    }
   }
 
   &__form-container {
     padding: 1rem;
 
-    background-color: gold;
+    background-color: var(--bs-primary);
     display: flex;
     flex-basis: 100%;
     justify-content: center;
@@ -114,7 +119,7 @@
 
 .menu-toogle {
   display: none;
-  background-color: red;
+  background-color: var(--bs-primary);
   flex: 0 0 3rem;
   position: relative;
   cursor: pointer;

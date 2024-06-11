@@ -1,0 +1,41 @@
+.footer {
+  background-color: var(--bs-black);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding: 20px;
+
+  &__description {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-between;
+    &-image {
+      height: 50px;
+      width: 50px;
+      margin-left: 10px;
+    }
+    &-item {
+      display: flex;
+      flex-direction: column;
+      &-title {
+        text-transform: uppercase;
+        font-size: 1.1;
+        color: white;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+      &-subtitle > a {
+        color: white;
+        font-weight: 300;
+      }
+    }
+    &-redes {
+      &-icon {
+        padding-left: 5px;
+        padding-right: 5px;
+        color: var(--bs-primary);
+      }
+    }
+  }
+}
