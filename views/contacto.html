@@ -20,12 +20,12 @@
       <div class="search-bar">
         <div class="search-bar__logo-container">
           <img
-            src="./public/img/logos/logo-main.webp"
+            src="../public/img/logos/logo-main.webp"
             alt=""
             class="search-bar__logo-container-img"
           />
           <img
-            src="./public/img/logos/logo-mobile.webp"
+            src="../public/img/logos/logo-mobile.webp"
             alt=""
             class="search-bar__logo-container-mobile"
           />
@@ -124,299 +124,93 @@
             </a>
             <a href="#" class="main__breadcrumb-container-item">Inicio</a>
             <p>&nbsp; / &nbsp;</p>
-            <a href="#" class="main__breadcrumb-container-item">Categoria #1</a>
-            <p>&nbsp; / &nbsp;</p>
-            <p class="main__breadcrumb-container-item-selected">
-              Sub-categoria #1
-            </p>
+            <p class="main__breadcrumb-container-item-selected">Contacto</p>
           </div>
-        </div>
-        <!-- Filter -->
-        <div class="main__filter">
-          <p class="">Filtrar</p>
-          <a href="#" class="main__filter-button">
-            <span class="material-symbols-outlined"> tune </span>
-          </a>
         </div>
       </div>
       <!-- Main content -->
-      <section class="section-cards">
-        <div class="cards-container">
-          <div class="card">
-            <article class="card__article">
-              <div class="card__image-container">
-                <img
-                  src="/img/apple-iphone-11-pro-max.jpg"
-                  alt="Iphone 11 Pro Max"
-                  class="card__image"
-                />
+      <section class="contacto">
+        <div class="contacto__content">
+          <div class="contacto__content-left">
+            <div class="contacto__content-left-descripcion">
+              <h2>¿EN QUÉ PODEMOS AYUDARTE?</h2>
+              <p>
+                Te podés comunicar con nosotros de Lunes a Sábado de 9 a 21hrs.
+              </p>
+              <p>Escribinos por Whatsapp al <a href="#">+54 11 345634121</a></p>
+              <p>También puedes contactarnos en nuestras redes sociales:</p>
+              <div class="contacto__content-left-descripcion-redes">
+                <a
+                  href="#"
+                  class="contacto__content-left-descripcion-redes-icon"
+                  ><i class="fa-brands fa-whatsapp text-24"></i
+                ></a>
+                <a
+                  href="#"
+                  class="contacto__content-left-descripcion-redes-icon"
+                  ><i class="fa-brands fa-instagram text-24"></i
+                ></a>
               </div>
-              <div class="card__content">
-                <div class="card__description">
-                  <div class="card__title">
-                    <h2 class="card__title-content text-black">
-                      Titulo producto
-                    </h2>
-                    <p class="card__title-subtitle text-muted">
-                      Categoria producto
-                    </p>
-                  </div>
-                  <h3 class="card__price">$40.000</h3>
-                </div>
-                <div class="card__footer">
-                  <p class="card__footer-letter mr-5">Y</p>
-                  <div class="card__footer-box">
-                    <div class="card__footer-box-btn-fav circle-sm active">
-                      <span
-                        class="material-symbols-outlined text-20 text-white"
-                      >
-                        kid_star
-                      </span>
-                    </div>
-                    <div class="card__footer-box-btn-addCart circle-sm active">
-                      <span
-                        class="material-symbols-outlined text-20 text-white"
-                      >
-                        add_shopping_cart
-                      </span>
-                      <span
-                        class="material-symbols-outlined text-24 text-white"
-                      >
-                        Check
-                      </span>
-                    </div>
-                  </div>
-                  <p class="card__footer-letter ml-5">A</p>
-                </div>
+              <h2>¿EN QUÉ PODEMOS AYUDARTE?</h2>
+              <div class="contacto__content-left-descripcion-qa">
+                <a href="#">¿CUÁNTO TARDARÁ EN LLEGAR MI PEDIDO?</a>
+                <a href="#"
+                  >¿Qué pasa si mi producto tiene un defecto o no cumple con los
+                  estándares de calidad?</a
+                >
+                <a href="#"
+                  >¿Cómo es el proceso de devolución de un pedido en
+                  OVERGAMES?</a
+                >
+                <a href="#"
+                  >¿Cómo puedo dar seguimiento a la entrega de mi pedido?</a
+                >
               </div>
-            </article>
+            </div>
           </div>
-          <!-- .card -->
-          <div class="card">
-            <article class="card__article">
-              <div class="card__image-container">
-                <img
-                  src="/public/img/apple-iphone-12.jpg"
-                  alt="Iphone 12"
-                  class="card__image"
-                />
+          <div class="contacto__content-right">
+            <h2>formulario de contacto</h2>
+            <div
+              class="d-flex flex-row align-items-center justify-content-center"
+            >
+              <div class="contacto__content-right-form input">
+                <label for="nombre">Nombre</label>
+                <input type="text" class="input-text" id="nombre" />
               </div>
-              <div class="card__content">
-                <div class="card__description">
-                  <div class="card__title">
-                    <h2 class="card__title-content text-black">
-                      Titulo producto
-                    </h2>
-                    <p class="card__title-subtitle text-muted">
-                      Categoria producto
-                    </p>
-                  </div>
-                  <h3 class="card__price">$40.000</h3>
-                </div>
-                <div class="card__footer">
-                  <p class="card__footer-letter mr-5">Y</p>
-                  <div class="card__footer-box">
-                    <div class="card__footer-box-btn-fav circle-sm">
-                      <span
-                        class="material-symbols-outlined text-20 text-white"
-                      >
-                        kid_star
-                      </span>
-                    </div>
-                    <div class="card__footer-box-btn-addCart circle-sm">
-                      <span
-                        class="material-symbols-outlined text-20 text-white"
-                      >
-                        add_shopping_cart
-                      </span>
-                    </div>
-                  </div>
-                  <p class="card__footer-letter ml-5">A</p>
-                </div>
+              <div class="contacto__content-right-form input ml-30">
+                <label for="apellido">Apellido</label>
+                <input type="text" class="input-text" id="apellido" />
               </div>
-            </article>
+            </div>
+            <div
+              class="d-flex flex-row align-items-center justify-content-center"
+            >
+              <div class="contacto__content-right-form input">
+                <label for="email">Correo electrónico</label>
+                <input type="email" class="input-text" id="email" />
+              </div>
+              <div class="contacto__content-right-form input ml-30">
+                <label for="numPedido">Número de pedido</label>
+                <input type="text" class="input-text" id="numPedido" />
+              </div>
+            </div>
+            <div class="contacto__content-right-form input w-100 px-15">
+              <label for="tipoConsulta">Área de consulta</label>
+              <input type="text" class="input-text" id="tipoConsulta" />
+            </div>
+            <div class="contacto__content-right-form input px-15">
+              <label for="descripContacto">escribe la razón de contacto</label>
+              <textarea
+                name="description"
+                id="descripContacto"
+                class="contacto__content-right-form-textarea"
+                rows="10"
+                cols="50"
+                placeholder="Escriba algo aquí..."
+              ></textarea>
+            </div>
+            <button type="submit" class="button mt-10">Enviar</button>
           </div>
-          <!-- .card -->
-          <div class="card">
-            <article class="card__article">
-              <div class="card__image-container">
-                <img
-                  src="/public/img/camara-canon.jpg"
-                  alt="Camara Canon"
-                  class="card__image"
-                />
-              </div>
-              <div class="card__content">
-                <div class="card__description">
-                  <div class="card__title">
-                    <h2 class="card__title-content text-black">
-                      Titulo producto
-                    </h2>
-                    <p class="card__title-subtitle text-muted">
-                      Categoria producto
-                    </p>
-                  </div>
-                  <h3 class="card__price">$40.000</h3>
-                </div>
-                <div class="card__footer">
-                  <p class="card__footer-letter mr-5">Y</p>
-                  <div class="card__footer-box">
-                    <div class="card__footer-box-btn-fav circle-sm">
-                      <span
-                        class="material-symbols-outlined text-20 text-white"
-                      >
-                        kid_star
-                      </span>
-                    </div>
-                    <div class="card__footer-box-btn-addCart circle-sm">
-                      <span
-                        class="material-symbols-outlined text-20 text-white"
-                      >
-                        add_shopping_cart
-                      </span>
-                    </div>
-                  </div>
-                  <p class="card__footer-letter ml-5">A</p>
-                </div>
-              </div>
-            </article>
-          </div>
-          <!-- .card -->
-          <div class="card">
-            <article class="card__article">
-              <div class="card__image-container">
-                <img
-                  src="/public/img/celular-samsung.jpg"
-                  alt="Celular Samsung"
-                  class="card__image"
-                />
-              </div>
-              <div class="card__content">
-                <div class="card__description">
-                  <div class="card__title">
-                    <h2 class="card__title-content text-black">
-                      Titulo producto
-                    </h2>
-                    <p class="card__title-subtitle text-muted">
-                      Categoria producto
-                    </p>
-                  </div>
-                  <h3 class="card__price">$40.000</h3>
-                </div>
-                <div class="card__footer">
-                  <p class="card__footer-letter mr-5">Y</p>
-                  <div class="card__footer-box">
-                    <div class="card__footer-box-btn-fav circle-sm">
-                      <span
-                        class="material-symbols-outlined text-20 text-white"
-                      >
-                        kid_star
-                      </span>
-                    </div>
-                    <div class="card__footer-box-btn-addCart circle-sm">
-                      <span
-                        class="material-symbols-outlined text-20 text-white"
-                      >
-                        add_shopping_cart
-                      </span>
-                    </div>
-                  </div>
-                  <p class="card__footer-letter ml-5">A</p>
-                </div>
-              </div>
-            </article>
-          </div>
-          <!-- .card -->
-          <div class="card">
-            <article class="card__article">
-              <div class="card__image-container">
-                <img
-                  src="/public/img/chromecast-google.jpg"
-                  alt="Chromecast Google"
-                  class="card__image"
-                />
-              </div>
-              <div class="card__content">
-                <div class="card__description">
-                  <div class="card__title">
-                    <h2 class="card__title-content text-black">
-                      Titulo producto
-                    </h2>
-                    <p class="card__title-subtitle text-muted">
-                      Categoria producto
-                    </p>
-                  </div>
-                  <h3 class="card__price">$40.000</h3>
-                </div>
-                <div class="card__footer">
-                  <p class="card__footer-letter mr-5">Y</p>
-                  <div class="card__footer-box">
-                    <div class="card__footer-box-btn-fav circle-sm">
-                      <span
-                        class="material-symbols-outlined text-20 text-white"
-                      >
-                        kid_star
-                      </span>
-                    </div>
-                    <div class="card__footer-box-btn-addCart circle-sm">
-                      <span
-                        class="material-symbols-outlined text-20 text-white"
-                      >
-                        add_shopping_cart
-                      </span>
-                    </div>
-                  </div>
-                  <p class="card__footer-letter ml-5">A</p>
-                </div>
-              </div>
-            </article>
-          </div>
-          <!-- .card -->
-          <div class="card">
-            <article class="card__article">
-              <div class="card__image-container">
-                <img
-                  src="/public/img/dji-mavic-2-pro.jpg"
-                  alt="Dji Mavic 2 Pro"
-                  class="card__image"
-                />
-              </div>
-              <div class="card__content">
-                <div class="card__description">
-                  <div class="card__title">
-                    <h2 class="card__title-content text-black">
-                      Titulo producto
-                    </h2>
-                    <p class="card__title-subtitle text-muted">
-                      Categoria producto
-                    </p>
-                  </div>
-                  <h3 class="card__price">$40.000</h3>
-                </div>
-                <div class="card__footer">
-                  <p class="card__footer-letter mr-5">Y</p>
-                  <div class="card__footer-box">
-                    <div class="card__footer-box-btn-fav circle-sm">
-                      <span
-                        class="material-symbols-outlined text-20 text-white"
-                      >
-                        kid_star
-                      </span>
-                    </div>
-                    <div class="card__footer-box-btn-addCart circle-sm">
-                      <span
-                        class="material-symbols-outlined text-20 text-white"
-                      >
-                        add_shopping_cart
-                      </span>
-                    </div>
-                  </div>
-                  <p class="card__footer-letter ml-5">A</p>
-                </div>
-              </div>
-            </article>
-          </div>
-          <!-- .card -->
         </div>
       </section>
       <!-- .section-cards -->
@@ -424,7 +218,7 @@
     <footer class="footer">
       <div class="footer__description">
         <img
-          src="./public/img/logos/logo-footer.webp"
+          src="../public/img/logos/logo-footer.webp"
           alt="logo footer"
           class="footer__description-image"
         />
@@ -456,4 +250,3 @@
     <script type="module" src="/main.js"></script>
   </body>
 </html>
-
