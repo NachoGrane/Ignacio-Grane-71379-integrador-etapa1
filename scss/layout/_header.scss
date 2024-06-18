@@ -233,8 +233,8 @@
       text-decoration: none;
       color: var(--bs-text-main);
       &:hover {
-        color: var(--text-muted);
-        transition: all 224ms ease-in-out;
+        color: var(--bs-secondary);
+        transition: all 104ms ease-in-out;
       }
     }
 
@@ -244,8 +244,8 @@
       cursor: pointer;
 
       &:hover {
-        color: var(--text-muted);
-        transition: all 224ms ease-in-out;
+        color: var(--bs-secondary);
+        transition: all 104ms ease-in-out;
       }
       @media (max-width: 768px) {
         & > span {
@@ -255,9 +255,9 @@
       &-circlePointer {
         position: absolute;
         z-index: 99;
-        background-color: var(--bs-secondary-accent);
+        background-color: var(--bs-fav);
         left: 20px;
-        color: white;
+        color: var(--text-main);
         font-weight: bold;
         font-size: 0.6rem;
       }

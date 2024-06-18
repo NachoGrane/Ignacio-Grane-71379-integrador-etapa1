@@ -12,6 +12,7 @@
   --bs-secondary-accent: #3c3fff;
   --text-main: #000000;
   --text-muted: #434343;
+  --bs-fav: #efc800;
 }
 /* ------------------------------ */
 
@@ -70,6 +71,16 @@
   text-align: center;
   border-radius: 50%;
   display: inline-block;
+}
+
+/* ------ Display -------- */
+
+.d-none {
+  display: none;
+}
+
+.d-block {
+  display: block;
 }
 
 /*------- Flex ---------*/

@@ -23,6 +23,9 @@
       line-height: 24px;
       background-color: var(--bs-secondary);
       border-radius: 100%;
+      &:hover {
+        background-color: var(--bs-secondary-accent);
+      }
       & > span {
         font-size: 20px;
         color: #fff;
