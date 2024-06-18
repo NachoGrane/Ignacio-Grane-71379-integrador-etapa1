@@ -9,4 +9,11 @@
   margin-top: 20px;
   margin-bottom: 40px;
   gap: 2.5rem;
+  @media (max-width: 768px) {
+    & {
+      gap: 1.5rem;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  }
 }

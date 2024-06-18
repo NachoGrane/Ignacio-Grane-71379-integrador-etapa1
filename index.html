@@ -24,32 +24,79 @@
             alt=""
             class="search-bar__logo-container-img"
           />
+          <img
+            src="./public/img/logos/logo-mobile.webp"
+            alt=""
+            class="search-bar__logo-container-mobile"
+          />
         </div>
         <input type="checkbox" id="menu" />
 
         <nav class="nav-bar">
           <ul class="nav-bar__nav-list">
             <li class="nav-bar__nav-item">
-              <a href="#" class="nav-bar__nav-link">Inicio</a>
+              <a href="#" class="nav-bar__nav-link nav-bar__nav-link-selected"
+                >Categoria #1</a
+              >
             </li>
             <li class="nav-bar__nav-item">
-              <a href="#" class="nav-bar__nav-link">Alta</a>
+              <a href="#" class="nav-bar__nav-link">Categoria #2</a>
             </li>
             <li class="nav-bar__nav-item">
-              <a href="#" class="nav-bar__nav-link">Nosotros</a>
+              <a href="#" class="nav-bar__nav-link">Categoria #3</a>
             </li>
             <li class="nav-bar__nav-item">
-              <a href="#" class="nav-bar__nav-link">Contacto</a>
+              <a href="#" class="nav-bar__nav-link">Categoria #4</a>
             </li>
           </ul>
         </nav>
-        <form action="#" class="search-bar__form-container">
-          <label for="busqueda" class="search-bar__form-label">Buscar</label>
-          <input type="search" class="search-bar__form-search" id="busqueda" />
-          <input type="submit" class="search-bar__form-submit" value="Buscar" />
-        </form>
-        <div class="search-bar__carrito-container">
-          <span class="material-symbols-outlined"> shopping_basket </span>
+        <div class="items-end">
+          <form action="#" class="search-bar__form-container">
+            <label for="busqueda" class="search-bar__form-label">Buscar</label>
+            <input
+              type="search"
+              class="search-bar__form-search px-15"
+              id="busqueda"
+              placeholder="Buscar..."
+            />
+            <input
+              type="submit"
+              class="search-bar__form-submit material-symbols-outlined text-22"
+              value="search"
+            />
+          </form>
+          <div class="search-bar__carrito-container">
+            <div class="search-bar__carrito-container-item">
+              <span class="material-symbols-outlined text-36">
+                shopping_basket
+              </span>
+              <div
+                class="search-bar__carrito-container-item-circlePointer circle-xs"
+              >
+                99+
+              </div>
+            </div>
+            <div class="search-bar__carrito-container-item">
+              <span class="material-symbols-outlined text-36"> kid_star </span>
+              <div
+                class="search-bar__carrito-container-item-circlePointer circle-xs"
+              >
+                99+
+              </div>
+            </div>
+            <a
+              href="#"
+              class="material-symbols-outlined search-bar__carrito-container-item-profile text-36"
+            >
+              person
+            </a>
+            <a
+              href="#"
+              class="material-symbols-outlined search-bar__carrito-container-item-search text-28"
+            >
+              search
+            </a>
+          </div>
         </div>
         <div class="menu-toogle">
           <label for="menu" class="menu-toogle__label">
@@ -63,11 +110,36 @@
     </header>
     <!-- main-header -->
     <main>
+      <div
+        class="d-flex flex-row align-items-center justify-content-between mt-10"
+      >
+        <!-- Breadcrumb -->
+        <div class="main__breadcrumb">
+          <div class="main__breadcrumb-container">
+            <a
+              href="#"
+              class="material-symbols-outlined main__breadcrumb-container-icon text-20 p-0"
+            >
+              chevron_backward
+            </a>
+            <a href="#" class="main__breadcrumb-container-item">Inicio</a>
+            <p>&nbsp; / &nbsp;</p>
+            <a href="#" class="main__breadcrumb-container-item">Categoria #1</a>
+            <p>&nbsp; / &nbsp;</p>
+            <p class="main__breadcrumb-container-item-selected">
+              Sub-categoria #1
+            </p>
+          </div>
+        </div>
+        <!-- Filter -->
+        <div class="main__filter">
+          <p class="">Filtrar</p>
+          <a href="#" class="main__filter-button">
+            <span class="material-symbols-outlined"> tune </span>
+          </a>
+        </div>
+      </div>
       <section class="section-cards">
-        <header class="section-cards__header">
-          <h1>Lorem ipsum dolor sit.</h1>
-          <p>Se encontraron X productos</p>
-        </header>
         <div class="cards-container">
           <div class="card">
             <article class="card__article">
