@@ -10,6 +10,7 @@
     }
     &-left {
       border: 1px solid var(--text-main);
+      border-right: 0px;
       padding: 15px;
 
       &-descripcion {
@@ -32,11 +33,15 @@
       }
     }
     &-right {
+      background-color: var(--bs-terciary);
       display: flex;
       flex-direction: column;
       align-items: center;
       padding: 15px;
       border: 1px solid var(--text-main);
+      border-left: 0px;
+      box-shadow: -4px 0px 4px 0px rgba($color: #000000, $alpha: 0.5),
+        inset 4px 0px 6.2px 0px rgba($color: #000000, $alpha: 0.1);
       & h2 {
         text-transform: uppercase;
         margin-bottom: 30px;
