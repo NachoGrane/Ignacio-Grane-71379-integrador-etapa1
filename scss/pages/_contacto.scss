@@ -11,6 +11,7 @@
         align-items: center;
         padding: 0px;
         margin-top: 30px;
+        margin-bottom: 30px;
       }
     }
     & h2 {
@@ -20,6 +21,13 @@
       border: 1px solid var(--text-main);
       border-right: 0px;
       padding: 15px;
+      @media (max-width: 768px) {
+        & {
+          border: 0px;
+          padding: 10px;
+          margin-bottom: 30px;
+        }
+      }
 
       &-descripcion {
         & > p {
@@ -52,7 +60,7 @@
         inset 4px 0px 6.2px 0px rgba($color: #000000, $alpha: 0.1);
       @media (max-width: 768px) {
         & {
-          border-left: 1px solid var(--text-main);
+          border: 0px;
         }
       }
       & h2 {
