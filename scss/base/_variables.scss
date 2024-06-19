@@ -177,3 +177,17 @@
 .rounded {
   border-radius: 0.42rem !important;
 }
+
+@media (max-width: 768px) {
+  .flex-md-column {
+    flex-direction: column !important;
+  }
+
+  .ml-md-0 {
+    margin-left: 0px;
+  }
+
+  .w-md-50 {
+    width: 50% !important;
+  }
+}
